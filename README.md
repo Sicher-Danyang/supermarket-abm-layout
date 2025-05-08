@@ -53,10 +53,9 @@ supermarket-abm-layout/
 └── code/
     └── data_cleaning.R
 ## 📂 Scripts Included
-
-- `code/data_cleaning.R`:  
-  R script for cleaning and summarizing supermarket transaction data.  
-  It handles missing values, calculates total revenue per item, and produces daily sales summaries and simple revenue trend plots using `ggplot2`.
-git add .
-git commit -m "Add initial R data cleaning script"
-git push origin main
+- `code/data_cleaning.R`  
+  An R script that demonstrates a real-world data preprocessing pipeline:
+  - Cleans and standardizes supermarket transaction data
+  - Handles missing values and invalid entries
+  - Aggregates daily sales data and generates simple trend plots
+  - Uses `dplyr`, `lubridate`, and `ggplot2` for analysis
